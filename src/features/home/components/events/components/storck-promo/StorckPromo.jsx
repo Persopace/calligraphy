@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
-import storck from "assets/images/storck.png";
+import storck from "assets/promos/storck.png";
 
 const Promo = styled.div`
   height: 646px;

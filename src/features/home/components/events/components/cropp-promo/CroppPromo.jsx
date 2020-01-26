@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
-import cropp from "assets/images/cropp.png";
+import cropp from "assets/promos/cropp.png";
 
 const Promo = styled.div`
   height: 646px;
