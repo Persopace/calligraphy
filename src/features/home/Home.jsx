@@ -1,13 +1,14 @@
 import React from "react";
 import { Layout } from "components";
-import { MainInfo, Events } from "./components";
+import { MainInfo, Events, Works } from "./components";
 
 const Home = () => {
   return (
-    <div>
+    <div style={{ "margin-bottom": "150px" }}>
       <MainInfo />
       <Layout>
         <Events />
+        <Works />
       </Layout>
     </div>
   );

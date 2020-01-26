@@ -4,3 +4,4 @@ export { default as Raw } from "./raw";
 export { default as Col } from "./col";
 export { default as Description } from "./description";
 export { default as ConturTitle } from "./contur-title";
+export { default as Footer } from "./footer";
