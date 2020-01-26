@@ -1,15 +1,14 @@
 import React from "react";
-import styled from "styled-components";
-import { Header, MainInfo, Title, SideTitle } from "./components";
+import { Layout } from "components";
+import { MainInfo, Events } from "./components";
 
 const Home = () => {
   return (
     <div>
-      <MainInfo>
-        <SideTitle />
-        <Header />
-        <Title />
-      </MainInfo>
+      <MainInfo />
+      <Layout>
+        <Events />
+      </Layout>
     </div>
   );
 };

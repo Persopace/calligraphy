@@ -1,9 +1,16 @@
-import React from "react";
-import styled from "styled-components";
-import mainBackground from "assets/backgrounds/main.png";
+import React from 'react';
+import styled from 'styled-components';
+import mainBackground from 'assets/backgrounds/main.png';
+import { SideTitle, Header, Title } from './components';
 
 const MainInfo = ({ className, children }) => {
-  return <section className={className}>{children}</section>;
+	return (
+		<section className={className}>
+			<SideTitle />
+			<Header />
+			<Title />
+		</section>
+	);
 };
 
 const StyledMainInfo = styled(MainInfo)`
